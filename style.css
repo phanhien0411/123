@@ -1,0 +1,30 @@
+body{
+    background-color:#66ff66;
+    padding: 45px;
+}
+
+.avatar{
+    border-radius: 100px;
+}
+
+h3{
+    font-family: 'Playfair Display', serif;
+    margin: 10px 0 8px 0;
+}
+
+.button{
+    margin-bottom: 20px;
+    background-color: white;
+    border: 0px;
+    width: 300px;
+    padding: 20px 20px 0;
+    border-radius: 100px;
+    font-size: 15px;
+    transform-duration: 0.3s;
+    transition-property: color, background-color;
+}
+
+.button:hover{
+    color: white;
+    background-color: black;
+}
